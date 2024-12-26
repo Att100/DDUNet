@@ -22,6 +22,23 @@ python -m pip install paddlepaddle-gpu==2.6.2.post120 -i https://www.paddlepaddl
 pip install numpy pillow pandas matplotlib scikit-learn 
 ```
 
+### 2.3 Dataset
+
+Please download the `SWINySEG` dataset from [link](https://vintage.winklerbros.net/swinyseg.html), and place the dataset in `./dataset` following the structure:
+
+```
+.
+├── README.md
+└── SWINySEG
+    ├── GTmaps
+    ├── images
+    ├── metadata.csv
+    ├── README.pdf
+
+```
+
+and then place the `txt` files in `./dataset/SWINySEG-split` to `./dataset/SWINySEG`
+
 ## 3. Usage
 
 ### 3.1 Train
