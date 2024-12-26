@@ -72,3 +72,7 @@ python train.py --config 'baseline'
 ```
 python test.py
 ```
+
+## 4. Results
+
+![](./results/test_pred.svg)
