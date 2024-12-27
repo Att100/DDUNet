@@ -92,4 +92,9 @@ python test.py
 
 ## 4. Results
 
+### 4.1 Checkpoints
+
+You can download our pre-trained checkpoints from [link](https://drive.google.com/drive/folders/1QayN1JY4SCkkT30h7lgRiLtbQVIZ0hth?usp=sharing) and place the files in `./weights`
+
+### 4.2 Qualitative Results
 ![](./results/test_pred.svg)
