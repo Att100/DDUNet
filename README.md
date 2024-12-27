@@ -1,4 +1,9 @@
-# DDUNet: Dual Dynamic U-Net for Highly-Efficient Cloud Segmentation
+## DDUNet: Dual Dynamic U-Net for Highly-Efficient Cloud Segmentation
+
+With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript: 
+
+> Yijie Li, Hewei Wang, Jinfeng Xu, Puzhen Wu, Yunzhong Xiao, Shaofan Wang, and Soumyabrata Dev, DDUNet: Dual Dynamic U-Net for Highly-Efficient Cloud Segmentation, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*, under review.
+
 
 ## 1. Abstract
 
