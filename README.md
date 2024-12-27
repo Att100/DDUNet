@@ -5,9 +5,9 @@ With the spirit of reproducible research, this repository contains all the codes
 > Yijie Li, Hewei Wang, Jinfeng Xu, Puzhen Wu, Yunzhong Xiao, Shaofan Wang, and Soumyabrata Dev, DDUNet: Dual Dynamic U-Net for Highly-Efficient Cloud Segmentation, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*, under review.
 
 
-## 1. Abstract
+## 1. Summary
 
-Cloud segmentation amounts to separating cloud pixels from non-cloud pixels in an image. Current deep learning methods for cloud segmentation suffer from three issues. (a) Constrain on their receptive field due to the fixed size of the convolution kernel. (b) Lack of robustness towards different scenarios. (c) Requirement of a large number of parameters and limitations for real-time implementation. To address these issues, we propose a Dual Dynamic U-Net (DDUNet) for supervised cloud segmentation. The DDUNet adheres to a U-Net architecture and integrates two crucial modules: the dynamic multi-scale convolution (DMSC), improving merging features under different reception fields, and the dynamic weights and bias generator (DWBG) in classification layers to enhance generalization ability. More importantly, owing to the use of depth-wise convolution, the DDUNet is a lightweight network that can achieve 95.3\% accuracy on the SWINySEG dataset with only 0.33M parameters, and achieve superior performance over three different configurations of the SWINySEg dataset in both accuracy and efficiency. 
+Cloud segmentation identifies cloud pixels in an image, but current learning-based methods face three key challenges: (a) limited receptive field from fixed convolutional kernel sizes, (b) lack of robustness in diverse scenarios, and (c) high parameter requirements limiting real-time use. To overcome these issues, we propose the Dual Dynamic U-Net (DDUNet), a lightweight supervised model based on the U-Net architecture. DDUNet integrates dynamic multi-scale convolution (DMSC) to enhance feature merging across receptive fields and a dynamic weights and bias generator (DWBG) to improve generalization. With depth-wise convolution, DDUNet achieves 95.3% accuracy on the SWINySEG dataset using just 0.33M parameters, outperforming competing methods in both accuracy and efficiency.
 
 ![](./assets/ddunet-pipeline.svg)
 
