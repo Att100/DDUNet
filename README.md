@@ -2,8 +2,18 @@
 
 With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript: 
 
-> Yijie Li, Hewei Wang, Jinfeng Xu, Puzhen Wu, Yunzhong Xiao, Shaofan Wang, and Soumyabrata Dev, DDUNet: Dual Dynamic U-Net for Highly-Efficient Cloud Segmentation, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*, under review.
+> Yijie Li, Hewei Wang, Jinfeng Xu, Puzhen Wu, Yunzhong Xiao, Shaofan Wang, and Soumyabrata Dev, DDUNet: Dual Dynamic U-Net for Highly-Efficient Cloud Segmentation, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*, 2025.
 
+### Citing DDUNet
+If you find DDUNet useful in your research, please consider citing our [paper](https://arxiv.org/abs/2501.15385).
+```
+@article{li2025ddunet,
+  title={Ddunet: Dual dynamic u-net for highly-efficient cloud segmentation},
+  author={Li, Yijie and Wang, Hewei and Xu, Jinfeng and Wu, Puzhen and Xiao, Yunzhong and Wang, Shaofan and Dev, Soumyabrata},
+  journal={arXiv preprint arXiv:2501.15385},
+  year={2025}
+}
+```
 
 ## 1. Summary
 
